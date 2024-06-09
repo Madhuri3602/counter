@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to right,pink, purple,burlywood);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#counter 
+{
+    padding: 100px;
+    background-color:burlywood;
+    border-radius: 100px;
+    text-align: center;
+    border-color: black;
+}
+
+#count
+ {
+    font-size: 3em; 
+    margin-bottom: 20px; 
+}
+#demo
+{
+    font-size: 2em;
+    text-align: center;
+    font-style: normal;
+    color:black;
+}
+#buttons button 
+{
+    font-size: 2em; 
+    margin: 0 15px; 
+    padding: 20px 40px;
+    border-color: burlywood; 
+    border-radius: 10px; 
+    background-color:yellowgreen; 
+    color: white; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+#buttons button:hover
+ {
+    background-color: plum; 
+}
+
